@@ -95,7 +95,7 @@
                 $total_price_product += $p["price"];
               }
 
-              $revenue = $total_price - $total_price_product;
+              $revenue = $total_price;
               if ($revenue < 0) {
                 $revenue = 0;
               }
